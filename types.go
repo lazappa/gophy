@@ -12,7 +12,7 @@ type Gif struct {
 	Type               string `json:"type"`
 	Id                 string `json:"id"`
 	URL                string `json:"url"`
-	Tags               string `json:"tags"`
+	Tags               []string `json:"tags"`
 	BitlyGifURL        string `json:"bitly_gif_url"`
 	BitlyFullscreenURL string `json:"bitly_fullscreen_url"`
 	BitlyTiledURL      string `json:"bitly_tiled_url"`
